@@ -1,9 +1,9 @@
 const {sequelize, DataTypes, Model} = require('./db')
 
 // import your models
-const {Movie} = require('../models/Movie')
-const {Cast} = require('../models/Cast')
-const {Crew} = require('../models/Crew')
+const {Movie} = require('./models/Movie')
+const {Cast} = require('./models/Cast')
+const {Crew} = require('./models/Crew')
 
 
 // associate
