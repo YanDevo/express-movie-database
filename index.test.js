@@ -102,4 +102,8 @@ describe('Movie Database', () => {
         expect(castList[0] instanceof Cast).toBeTruthy()
         expect(castList[0].name).toMatch('George Clooney')
     })
+
+    afterAll(async () => {
+        sequelize.close()
+    })
 })
